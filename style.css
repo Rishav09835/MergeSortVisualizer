@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.controls{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#array-container{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.bar{
+    background-color: teal;
+    margin: 0 1px;
+    width:calc(100% /30-2px);
+    transition: height 0.1s, background-color 0.1s;
+}
