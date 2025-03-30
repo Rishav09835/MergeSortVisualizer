@@ -27,6 +27,6 @@ body{
 .array-bar{
     background-color: teal;
     margin: 0 1px;
-    width: calc(100% / 30-2px);
+    width: calc((100% / 30)-2px);
     transition: height 0.1s, background-color 0.1s;
 }
